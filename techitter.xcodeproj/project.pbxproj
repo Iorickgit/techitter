@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8949A293214D30F400471136 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8949A292214D30F400471136 /* AppDelegate.swift */; };
+		8949A295214D30F400471136 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8949A294214D30F400471136 /* ViewController.swift */; };
+		8949A298214D30F400471136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8949A296214D30F400471136 /* Main.storyboard */; };
+		8949A29A214D30F800471136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8949A299214D30F800471136 /* Assets.xcassets */; };
+		8949A29D214D30F800471136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8949A29B214D30F800471136 /* LaunchScreen.storyboard */; };
+		8949A2A8214D30F800471136 /* techitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8949A2A7214D30F800471136 /* techitterTests.swift */; };
+		8949A2B3214D30F800471136 /* techitterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8949A2B2214D30F800471136 /* techitterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8949A2A4214D30F800471136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8949A287214D30F400471136 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8949A28E214D30F400471136;
+			remoteInfo = techitter;
+		};
+		8949A2AF214D30F800471136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8949A287214D30F400471136 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8949A28E214D30F400471136;
+			remoteInfo = techitter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8949A28F214D30F400471136 /* techitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = techitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8949A292214D30F400471136 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8949A294214D30F400471136 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8949A297214D30F400471136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8949A299214D30F800471136 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8949A29C214D30F800471136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8949A29E214D30F800471136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8949A2A3214D30F800471136 /* techitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = techitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8949A2A7214D30F800471136 /* techitterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = techitterTests.swift; sourceTree = "<group>"; };
+		8949A2A9214D30F800471136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8949A2AE214D30F800471136 /* techitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = techitterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8949A2B2214D30F800471136 /* techitterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = techitterUITests.swift; sourceTree = "<group>"; };
+		8949A2B4214D30F800471136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8949A28C214D30F400471136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8949A2A0214D30F800471136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8949A2AB214D30F800471136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8949A286214D30F400471136 = {
+			isa = PBXGroup;
+			children = (
+				8949A291214D30F400471136 /* techitter */,
+				8949A2A6214D30F800471136 /* techitterTests */,
+				8949A2B1214D30F800471136 /* techitterUITests */,
+				8949A290214D30F400471136 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8949A290214D30F400471136 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8949A28F214D30F400471136 /* techitter.app */,
+				8949A2A3214D30F800471136 /* techitterTests.xctest */,
+				8949A2AE214D30F800471136 /* techitterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8949A291214D30F400471136 /* techitter */ = {
+			isa = PBXGroup;
+			children = (
+				8949A292214D30F400471136 /* AppDelegate.swift */,
+				8949A294214D30F400471136 /* ViewController.swift */,
+				8949A296214D30F400471136 /* Main.storyboard */,
+				8949A299214D30F800471136 /* Assets.xcassets */,
+				8949A29B214D30F800471136 /* LaunchScreen.storyboard */,
+				8949A29E214D30F800471136 /* Info.plist */,
+			);
+			path = techitter;
+			sourceTree = "<group>";
+		};
+		8949A2A6214D30F800471136 /* techitterTests */ = {
+			isa = PBXGroup;
+			children = (
+				8949A2A7214D30F800471136 /* techitterTests.swift */,
+				8949A2A9214D30F800471136 /* Info.plist */,
+			);
+			path = techitterTests;
+			sourceTree = "<group>";
+		};
+		8949A2B1214D30F800471136 /* techitterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8949A2B2214D30F800471136 /* techitterUITests.swift */,
+				8949A2B4214D30F800471136 /* Info.plist */,
+			);
+			path = techitterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8949A28E214D30F400471136 /* techitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8949A2B7214D30F800471136 /* Build configuration list for PBXNativeTarget "techitter" */;
+			buildPhases = (
+				8949A28B214D30F400471136 /* Sources */,
+				8949A28C214D30F400471136 /* Frameworks */,
+				8949A28D214D30F400471136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = techitter;
+			productName = techitter;
+			productReference = 8949A28F214D30F400471136 /* techitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8949A2A2214D30F800471136 /* techitterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8949A2BA214D30F800471136 /* Build configuration list for PBXNativeTarget "techitterTests" */;
+			buildPhases = (
+				8949A29F214D30F800471136 /* Sources */,
+				8949A2A0214D30F800471136 /* Frameworks */,
+				8949A2A1214D30F800471136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8949A2A5214D30F800471136 /* PBXTargetDependency */,
+			);
+			name = techitterTests;
+			productName = techitterTests;
+			productReference = 8949A2A3214D30F800471136 /* techitterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8949A2AD214D30F800471136 /* techitterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8949A2BD214D30F800471136 /* Build configuration list for PBXNativeTarget "techitterUITests" */;
+			buildPhases = (
+				8949A2AA214D30F800471136 /* Sources */,
+				8949A2AB214D30F800471136 /* Frameworks */,
+				8949A2AC214D30F800471136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8949A2B0214D30F800471136 /* PBXTargetDependency */,
+			);
+			name = techitterUITests;
+			productName = techitterUITests;
+			productReference = 8949A2AE214D30F800471136 /* techitterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8949A287214D30F400471136 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = LifeisTech;
+				TargetAttributes = {
+					8949A28E214D30F400471136 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					8949A2A2214D30F800471136 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8949A28E214D30F400471136;
+					};
+					8949A2AD214D30F800471136 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8949A28E214D30F400471136;
+					};
+				};
+			};
+			buildConfigurationList = 8949A28A214D30F400471136 /* Build configuration list for PBXProject "techitter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8949A286214D30F400471136;
+			productRefGroup = 8949A290214D30F400471136 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8949A28E214D30F400471136 /* techitter */,
+				8949A2A2214D30F800471136 /* techitterTests */,
+				8949A2AD214D30F800471136 /* techitterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8949A28D214D30F400471136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8949A29D214D30F800471136 /* LaunchScreen.storyboard in Resources */,
+				8949A29A214D30F800471136 /* Assets.xcassets in Resources */,
+				8949A298214D30F400471136 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8949A2A1214D30F800471136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8949A2AC214D30F800471136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8949A28B214D30F400471136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8949A295214D30F400471136 /* ViewController.swift in Sources */,
+				8949A293214D30F400471136 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8949A29F214D30F800471136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8949A2A8214D30F800471136 /* techitterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8949A2AA214D30F800471136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8949A2B3214D30F800471136 /* techitterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8949A2A5214D30F800471136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8949A28E214D30F400471136 /* techitter */;
+			targetProxy = 8949A2A4214D30F800471136 /* PBXContainerItemProxy */;
+		};
+		8949A2B0214D30F800471136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8949A28E214D30F400471136 /* techitter */;
+			targetProxy = 8949A2AF214D30F800471136 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8949A296214D30F400471136 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8949A297214D30F400471136 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8949A29B214D30F800471136 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8949A29C214D30F800471136 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8949A2B5214D30F800471136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8949A2B6214D30F800471136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8949A2B8214D30F800471136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84UWVBQRS2;
+				INFOPLIST_FILE = techitter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiT.techitter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8949A2B9214D30F800471136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84UWVBQRS2;
+				INFOPLIST_FILE = techitter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiT.techitter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8949A2BB214D30F800471136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84UWVBQRS2;
+				INFOPLIST_FILE = techitterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiT.techitterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/techitter.app/techitter";
+			};
+			name = Debug;
+		};
+		8949A2BC214D30F800471136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84UWVBQRS2;
+				INFOPLIST_FILE = techitterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiT.techitterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/techitter.app/techitter";
+			};
+			name = Release;
+		};
+		8949A2BE214D30F800471136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84UWVBQRS2;
+				INFOPLIST_FILE = techitterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiT.techitterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = techitter;
+			};
+			name = Debug;
+		};
+		8949A2BF214D30F800471136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84UWVBQRS2;
+				INFOPLIST_FILE = techitterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiT.techitterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = techitter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8949A28A214D30F400471136 /* Build configuration list for PBXProject "techitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8949A2B5214D30F800471136 /* Debug */,
+				8949A2B6214D30F800471136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8949A2B7214D30F800471136 /* Build configuration list for PBXNativeTarget "techitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8949A2B8214D30F800471136 /* Debug */,
+				8949A2B9214D30F800471136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8949A2BA214D30F800471136 /* Build configuration list for PBXNativeTarget "techitterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8949A2BB214D30F800471136 /* Debug */,
+				8949A2BC214D30F800471136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8949A2BD214D30F800471136 /* Build configuration list for PBXNativeTarget "techitterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8949A2BE214D30F800471136 /* Debug */,
+				8949A2BF214D30F800471136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8949A287214D30F400471136 /* Project object */;
+}
