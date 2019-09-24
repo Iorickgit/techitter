@@ -9,15 +9,24 @@
 import UIKit
 
 class TableViewCell: UITableViewCell {
+    
+    @IBOutlet var userName: UILabel!
+    @IBOutlet var postText: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
+    
+
+    func labelAdd(indexPathNum: IndexPath, username: [String], post: [String]){
+        userName.text = username[indexPathNum.row]
+        postText.text = post[indexPathNum.row]
+    }
+    
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
         // Configure the view for the selected state
     }
     
